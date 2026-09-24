@@ -3,3 +3,76 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #10091a;
+    color: white;
+}
+
+
+
+
+header {
+    background-color: #1b0d29;
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+
+h1 {
+    color: #ff4fd8;
+    font-size: 40px;
+}
+
+
+
+
+nav {
+    margin: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 25px;
+}
+
+
+
+
+h2 {
+    color: #ff75e8;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #c77dff;
+}
+
+
+
+
+footer {
+    background-color: #0b0610;
+    text-align: center;
+    padding: 30px;
+}
