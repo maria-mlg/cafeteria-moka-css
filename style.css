@@ -101,12 +101,7 @@ footer {
     );
 }
 
-
-
-.destaque h2 {
-    color: #ff75e8;
-}
-
+.destaque h2,
 .destaque h3 {
     color: #ff75e8;
 }
