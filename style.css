@@ -397,3 +397,105 @@ body:has(section h2:first-child) {
     }
 
 }
+
+/* =========================
+   FORMULÁRIO
+========================= */
+
+.formulario {
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: #1d102b;
+    border: 2px solid #ff4fd8;
+    border-radius: 20px;
+    padding: 35px;
+    box-shadow: 0 0 25px rgba(255, 79, 216, 0.2);
+}
+
+.formulario h2 {
+    color: #ff4fd8;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.formulario > p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/* =========================
+   CAMPOS
+========================= */
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario label {
+    color: #ff75e8;
+    font-weight: bold;
+    margin-bottom: 7px;
+    margin-top: 15px;
+}
+
+.formulario input,
+.formulario select,
+.formulario textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #9d4edd;
+    border-radius: 10px;
+    background-color: #29163b;
+    color: white;
+    font-size: 15px;
+    outline: none;
+}
+
+
+/* Quando clicar no campo */
+
+.formulario input:focus,
+.formulario select:focus,
+.formulario textarea:focus {
+    border-color: #ff4fd8;
+    box-shadow: 0 0 8px rgba(255, 79, 216, 0.5);
+}
+
+
+/* Texto dentro dos campos */
+
+.formulario input::placeholder,
+.formulario textarea::placeholder {
+    color: #a995b5;
+}
+
+
+/* =========================
+   BOTÃO
+========================= */
+
+.formulario button {
+    margin-top: 30px;
+    padding: 14px;
+
+    border: none;
+    border-radius: 25px;
+
+    background-color: #ff4fd8;
+    color: #18091f;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.formulario button:hover {
+    background-color: #c77dff;
+    transform: translateY(-3px);
+    box-shadow: 0 0 15px #c77dff;
+}
