@@ -100,3 +100,21 @@ footer {
         rgba(16, 9, 26, 0.9)
     );
 }
+
+
+
+.destaque h2 {
+    color: #ff75e8;
+}
+
+.destaque h3 {
+    color: #ff75e8;
+}
+
+.destaque p {
+    color: #eadcf5;
+}
+
+.destaque a {
+    color: #ff4fd8;
+}
